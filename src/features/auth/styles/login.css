@@ -1,0 +1,38 @@
+/*
+ * Login page colours, copied exactly from old Seiyone src/pages/auth/LoginPage.css.
+ * Scoped to the login page (the .login-theme element), so nothing here reaches the global theme.
+ * Components read them through Tailwind, e.g. bg-(color:--login-submit).
+ */
+.login-theme {
+  /* Card */
+  --login-card-bg: linear-gradient(135deg, rgba(255, 252, 248, 0.54), rgba(255, 247, 239, 0.28));
+  --login-heading: #000;
+
+  /* Fields */
+  --login-label: #141414;
+  --login-icon: #94a5c1;
+  --login-icon-hover: #526b91;
+  --login-placeholder: #91a1bb;
+  --login-input-text: #0f172a;
+  --login-input-bg: rgba(255, 255, 255, 0.6);
+  --login-input-border: rgba(255, 255, 255, 0.78);
+  --login-input-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55), 0 1px 2px rgba(15, 23, 42, 0.04);
+  --login-focus-border: #0d9488;
+  --login-focus-outline: rgba(13, 148, 136, 0.2);
+  --login-toggle-focus: rgba(13, 148, 136, 0.45);
+
+  /* Submit button */
+  --login-submit: #007a78;
+  --login-submit-hover: #006b69;
+  --login-submit-active: #005d5b;
+  --login-submit-border: rgba(255, 255, 255, 0.18);
+  --login-submit-shadow: 0 10px 24px rgba(0, 100, 98, 0.2);
+
+  /* Error box */
+  --login-error-border: #fecaca;
+  --login-error-bg: rgba(254, 242, 242, 0.95);
+  --login-error-text: #b91c1c;
+
+  /* Footer */
+  --login-footer: #fff;
+}
